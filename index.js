@@ -2,8 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 //import App from './App';
-import Classcmp from './react1';
+//import Classcmp from './react1';
 //import Funcmp from './react2';
+import Calci from './calci.js';
+import './style.css';
+
 
 
 import reportWebVitals from './reportWebVitals';
@@ -11,7 +14,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Classcmp/>
+    <Calci/>
   </React.StrictMode>
 );
 // Rendering the GreetingComponent into the DOM
